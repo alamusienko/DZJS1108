@@ -80,7 +80,6 @@
     document.getElementById("outSeason").style.display = "block";
     document.getElementById("p2").style.display = "none";
     document.getElementById("p3").style.display = "none";
-    document.getElementById("p2").style.display = "none";
     document.getElementById("b2").style.display = "none";
     document.getElementById("b3").style.display = "none";
     document.getElementById("b4").style.display = "none";
@@ -96,7 +95,6 @@
     document.getElementById("p3").style.display = "block";
     document.getElementById("b2").style.display = "block";
     document.getElementById("outSeason").style.display = "block";
-    document.getElementById("p2").style.display = "none";
     document.getElementById("b1").style.display = "none";
     document.getElementById("b3").style.display = "none";
     document.getElementById("b4").style.display = "none";
@@ -120,6 +118,7 @@
     document.getElementById("outMaxNumber").style.display = "none";
     document.getElementById("outSeason").style.display = "none";
   }
+  
   
   function Season() {
     var num1, Result;
