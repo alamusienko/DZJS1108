@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTEF-8">
+        <title>DZJS1108</title>
+        <link rel="stylesheet" href="./style.css">     
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div class="calc" id=""></div>
+        <script src="./index.js"></script>
+        <fieldset>
+            <legend>Select a maintenance drone:</legend>
+        
+            <div>
+              <input type="radio" id="Season" name="drone" value="Season" onclick="showSeason()">
+              <label for="Season">Season</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="MaxNumber" name="drone" value="MaxNumber" onclick="showMaxNumber()">
+              <label for="MaxNumber">MaxNumber</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="Calculator" name="drone" value="Calculator" onclick="showCalc()">
+              <label for="Calculator">Calculator</label>
+            </div>
+        </fieldset>
+      <p id="p1">Number1: <input type="number" id="n1" required value="0"</p>
+      <p id="p2">Number2: <input type="number" id="n2" required value="0"</p>
+      <p id="p3">Number3: <input type="number" id="n3" required value="0"</p>
+      <hr>
+      <button id="b1" onclick="Season()">Season</button>
+      <button id="b2" onclick="MaxNumber()">MaxNumber</button>
+      <button id="b3" onclick="calcResultPlus()">+</button>
+      <button id="b4" onclick="CalcResultMinus()">-</button>
+      <button id="b5" onclick="CalcResultMultiplication()">&times</button>
+      <button id="b6" onclick="CalcResultDivision()">&divide</button>
+      <hr>
+      <p id="outSeason">Season: </p>
+      <p id="outMaxNumber">MaxNumber: </p>
+      <p id="outCalc">CalcResult: </p>
+ </body>
+</html>
